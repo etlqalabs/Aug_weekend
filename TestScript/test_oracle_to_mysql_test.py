@@ -8,7 +8,6 @@ import cx_Oracle
 # Read from oracle as source system
 oracle_engine = create_engine('''oracle+cx_oracle://system:admin@localhost:1521/xe''')
 
-
 # Read from mysql as traget db
 mysql_engine = create_engine('''mysql+pymysql://root:Admin%40143@localhost:3308/etlautomation''')
 
